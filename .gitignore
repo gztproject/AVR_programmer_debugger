@@ -1,2 +1,3 @@
 *.lck
-*backups
+AVR_programmer_debugger-backups
+AVR_programmer_debugger-backups/*
