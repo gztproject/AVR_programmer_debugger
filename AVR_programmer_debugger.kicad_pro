@@ -55,7 +55,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|104075000|92710000|4ad3fec8-0079-49cf-9558-023a833e54e0|81d16a0f-5f5f-4472-a831-1068b6b03e29",
+        "silk_edge_clearance|104205000|92710000|4ad3fec8-0079-49cf-9558-023a833e54e0|54921695-f51b-4ef4-a7af-ad4a8a21405b",
+        "silk_edge_clearance|121855000|92710000|4ad3fec8-0079-49cf-9558-023a833e54e0|00875c06-fd52-41dd-a34e-36c8b8b18539",
+        "silk_edge_clearance|121985000|92710000|4ad3fec8-0079-49cf-9558-023a833e54e0|f0703f13-0cea-4db2-b23d-d3fd606bad9d"
+      ],
       "meta": {
         "version": 2
       },
@@ -192,7 +197,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "multiple_net_names|1943100|1435100|23633c2b-692d-4eab-a118-419521569977|6b75fcf6-e695-4ddd-b275-4028d8135bbb|||"
+    ],
     "meta": {
       "version": 0
     },
